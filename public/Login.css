@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif; 
+}
+
+
+
+
+
+.header3{
+/* margin:0 4.5rem; */
+/* padding:10px ; */
+height: 5rem;
+max-width: 100%;
+min-width: 90%;
+background-color: #223d16;
+display: flex;
+position: relative;
+/* justify-content:space-around ; */
+
+
+
+}
+.container2{
+max-width: 1000px;
+margin: auto;
+width: 90%;
+}
+.nav{
+min-height: 8vh;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+.nav-items3{
+width: 40%;
+display: flex;
+list-style-type:none;
+justify-content: space-between;
+}
+li{
+/* position: absolute; */
+padding:0.8rem;
+margin:.9rem 7rem 0rem 1.5rem;
+display: flex;
+justify-content:space-between ;
+text-overflow: inherit;
+
+
+}
+
+a{
+position:absolute;
+text-decoration: none;
+color: white;
+text-align: center;
+justify-content: space-between;
+}
+
+
+
+.container{
+    
+    height: 15rem;
+    background-color: rgb(217, 231, 241);
+    width:13rem;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 10px;
+  
+}
+.input{
+    padding:0 1rem 1rem;
+}
+h2{
+    
+    padding: 0.5rem 4rem 1rem ;
+    display: block;
+    margin: auto;
+    margin-top: .5rem;
+    /* justify-content:space-around */
+    /* color: rgb(50, 50, 51); */
+   
+}
+.login-btn{
+    padding: 0.5rem .8rem .2rem ;
+    margin: 10px;
+    margin-left: 3.5rem;
+    cursor: pointer;
+    
+     
+   
+    
+
+}
+:hover.login-btn{
+    background-color: hsl(150, 140, 140);
+   
+}
