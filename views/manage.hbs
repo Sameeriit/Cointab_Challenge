@@ -29,7 +29,7 @@
 
 
 
-
+{{!-- ----------------------------------------------------- --}}
 
 
 
@@ -37,7 +37,7 @@
 
     <section class="section-signup container">
         <h2>Add User</h2>
-        <form class="signup-form">
+        <form action="/submit" class="signup-form">
             <div class="form-group">
                 <lable for="username">Username</lable>
                 <input type="text" name="username" id="username">
@@ -61,6 +61,15 @@
 
 
             <button type="submit" class="btn signup-btn">Submit</button>
+            {{#if mesg}}
+            <h3>submited successfully</h3>
+            {{/if}}
+{{!-- 
+             {{#if checkmesg}}
+            <h3>data already exist</h3>
+            {{/if}} --}}
+
+
         </form>
     </section>
 </body>

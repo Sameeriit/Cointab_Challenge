@@ -7,6 +7,9 @@
     margin: 0;
     font-family:'Poppins', sans-serif; 
 }
+body{
+    background-color: rgb(213, 248, 216);
+}
 
 
 
@@ -68,11 +71,16 @@ justify-content: space-between;
 .container{
     
     height: 15rem;
-    background-color: rgb(217, 231, 241);
+    color: aliceblue;
+    border: solid 1px white;
+    /* background-color: rgb(217, 231, 241); */
     width:13rem;
-    margin-top: 10%;
-    margin-left: 40%;
-    border-radius: 10px;
+    max-width: 90%;
+    margin-top: 20%;
+    margin-left: 25%;
+ 
+   
+   
   
 }
 .input{
@@ -91,8 +99,11 @@ h2{
 .login-btn{
     padding: 0.5rem .8rem .2rem ;
     margin: 10px;
-    margin-left: 3.5rem;
+    margin-left: 4rem;
     cursor: pointer;
+    border: none;
+    background-color: #223d16;
+    color: aliceblue;
     
      
    
@@ -100,6 +111,28 @@ h2{
 
 }
 :hover.login-btn{
-    background-color: hsl(150, 140, 140);
+    background-color: hsl(120, 6%, 87%);
+    color: black;
    
 }
+
+.circle{
+    display: flex;
+    height: 30rem;
+    width: 30rem;
+    /* border-radius: 15rem; */
+    border-bottom-left-radius: 12rem;
+    border-top-right-radius:12rem ;
+    /* background-color: rgb(147, 202, 170); */
+    padding: 2rem;
+    margin: 3rem;
+    margin-left:35% ;
+    background:url("./heading.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+   
+   
+}
+
